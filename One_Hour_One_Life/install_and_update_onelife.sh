@@ -1,3 +1,11 @@
+####################################################################################
+# Required packages:                                                               #
+#                                                                                  #
+# Arch: git g++ magemagick xclip sdl                                               #
+#                                                                                  #
+# Ubuntu: git g++ imagemagick xclip libsdl1.2-dev libglu1-mesa-dev libgl1-mesa-dev #
+#                                                                                  #
+####################################################################################
 echo
 echo Updating minorGems...
 echo
