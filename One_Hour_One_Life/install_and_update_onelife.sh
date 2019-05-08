@@ -43,3 +43,22 @@ cd ./server
 chmod u+x ./configure
 ./configure 1
 make
+cd ../..
+echo
+echo Copy required game files into the server folder...
+echo
+rm -r ./OneLife/server/categories
+rm -r ./OneLife/server/objects
+rm -r ./OneLife/server/transitions
+rm -r ./OneLife/server/tutorialMaps
+cp -r -f ./OneLife/build/source/OneLife_SPP/categories ./OneLife/server
+cp -r -f ./OneLife/build/source/OneLife_SPP/objects ./OneLife/server
+cp -r -f ./OneLife/build/source/OneLife_SPP/transitions ./OneLife/server
+cp -r -f ./OneLifeData7/tutorialMaps ./OneLife/server
+echo
+echo The game can be found here:
+echo ~/OneLife/build/source/OneLife_SPP
+echo
+echo Server is here:
+echo ~/OneLife/server
+echo
