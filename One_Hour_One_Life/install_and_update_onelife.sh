@@ -34,6 +34,7 @@ cd ./OneLife
 chmod u+x ./configure
 ./configure 1
 cd ./build/source
+./makeSourceBundle SPP
 ./makeLinuxBuildFromSourceBundle SPP
 cd ../..
 echo
